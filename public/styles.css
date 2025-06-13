@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('images/mru.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container, .dashboard-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 150px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.side-panel button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.side-panel button:hover {
+  background-color: #ccc;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.side-menu {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.side-menu h2 {
+  margin-top: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu li {
+  margin-bottom: 10px;
+}
+
+.student-info {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/*new*/
+body {
+  font-family: Arial, sans-serif;
+  background: url('images/mru.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading-container {
+  text-align: center;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
