@@ -19,7 +19,7 @@
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript, React.js  
-- **Backend:** Node.js, Express.js  
+- **Backend:** Node.js 
 - **Database:** SQLite  
 - **Version Control:** Git & GitHub  
 
